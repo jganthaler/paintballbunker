@@ -1,0 +1,27 @@
+// Variables
+// ========================================================================
+
+/// Margins for smallest breakpoint
+$utils-margin: rem-calc(30);
+$utils-margin-large: rem-calc(45);
+$utils-margin-small: rem-calc(15);
+
+/// Multiplicator for medium breakpoint
+$utils-margin-multiplicator: 2;
+
+/// Paddings for smallest breakpoint
+$utils-padding: rem-calc(30);
+$utils-padding-large: rem-calc(45);
+$utils-padding-small: rem-calc(15);
+
+/// Multiplicator for medium breakpoint
+$utils-padding-multiplicator: 2;
+
+$utils-border-rounded: rem-calc(5);
+
+/// Text
+$text-shadow-black: 0 1px rgba($black, 0.5);
+$text-shadow-white: 0 1px rgba($white, 0.5);
+
+/// Other
+$global-transition: all 0.3s ease;

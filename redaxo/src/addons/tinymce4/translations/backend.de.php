@@ -1,0 +1,22 @@
+<?php
+return array(
+    'Save' => 'Speichern',
+    'Cancel' => 'Abbrechen',
+    'Edit' => 'Ändern',
+    'Add' => 'Hinzufügen',
+    'Remove' => 'Löschen',
+    'Copy' => 'Kopieren',
+    'content_css' => 'Editor-CSS',
+    'content_css info' => 'URL zur CSS-Datei (Tinymce4-Parameter content_css).',
+    'media_format' => 'Media URL',
+    'media_format info' => 'URL, die der Editor als HREF zu einem Medium einsetzt. Platzhalter: {filename}.',
+    'image_format' => 'Image URL',
+    'image_format info' => 'URL, die der Editor als SRC zu einem Bild einsetzt.Platzhalter: {filename}.',
+    'selector' => 'Selektor',
+    'toolbar' => 'Toolbar-Konfiguration',
+    'initparams' => 'Weitere Parameter',
+    'plugins' => 'Plugins',
+    'Input required' => 'Eingabe erforderlich',
+    'json' => 'Tinymce Config',
+    'name' => 'Bezeichnung',
+    );

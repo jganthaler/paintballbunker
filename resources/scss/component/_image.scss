@@ -1,0 +1,56 @@
+.image-block-image {
+    @include background-image();
+    display: block;
+    height: rem-calc(240);
+    @include breakpoint(medium) {
+        height: rem-calc(320);
+    }
+    @include breakpoint(large) {
+        height: rem-calc(480);
+    }
+}
+
+.image-gallery {
+    background-color: $medium-gray;
+    background-image: url('../img/topography.svg');
+    background-repeat: repeat;
+}
+
+.image-gallery-item {
+    display: block;
+    outline: none;
+    position: relative;
+    color: $light-gray;
+    &:before, &:after {
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+    }
+
+    &:before {
+        @include pseudo-cover();
+        background-color: rgba($black, 0.5);
+    }
+    &:after {
+        color: $light-gray;
+        content: '\e923';
+        font-family: 'icomoon' !important;
+        display: block;
+        text-align: center;
+        font-size: rem-calc(36);
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        transform: translateY(-25%);
+    }
+    &:hover {
+        &:before, &:after {
+            opacity: 1;
+            visibility: visible;
+        }
+        &:after {
+            transform: translateY(-50%);
+        }
+    }
+}

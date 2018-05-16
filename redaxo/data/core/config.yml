@@ -1,0 +1,66 @@
+setup: false
+debug: true
+instname: rex20180430152352
+server: 'http://paintballbunker.corsair/'
+servername: Paintballbunker
+error_email: info@jganthaler.com
+fileperm: '0664'
+dirperm: '0775'
+session_duration: 7200
+session_keep_alive: 21600
+session:
+    backend:
+        cookie: { lifetime: null, path: null, domain: null, secure: null, httponly: true, samesite: Strict }
+    frontend:
+        cookie: { lifetime: null, path: null, domain: null, secure: null, httponly: true, samesite: Strict }
+password_policy:
+    length:
+        min: 8
+    lowercase:
+        min: 0
+    uppercase:
+        min: 0
+    digit:
+        min: 0
+lang: de_de
+use_gzip: true
+use_etag: true
+use_last_modified: false
+start_page: structure
+timezone: Europe/Berlin
+socket_proxy: null
+setup_addons:
+    - backup
+    - be_style
+system_addons:
+    - backup
+    - mediapool
+    - structure
+    - metainfo
+    - be_style
+    - media_manager
+    - users
+    - install
+    - project
+table_prefix: rex_
+temp_prefix: tmp_
+db:
+    1:
+        host: localhost
+        login: homestead
+        password: secret
+        name: paintballbunker
+        persistent: false
+    2:
+        host: ''
+        login: ''
+        password: ''
+        name: ''
+        persistent: false
+use_accesskeys: true
+accesskeys:
+    save: s
+    apply: x
+    delete: d
+    add: a
+    add_2: 'y'

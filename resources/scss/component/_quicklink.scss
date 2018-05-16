@@ -1,0 +1,41 @@
+.quicklink {
+    display: block;
+    height: rem-calc(240);
+    position: relative;
+    background-color: $dark-gray;
+    overflow: hidden;
+    @include breakpoint(medium) {
+        height: rem-calc(320);
+    }
+    .image {
+        @include background-image();
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        transition: all 0.3s ease;
+    }
+    .caption {
+        @include gradient(bottom);
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 2;
+        color: $light-gray;
+        font-size: rem-calc(24);
+        padding: rem-calc(30 15 15 15);
+        font-weight: $global-weight-bold;
+        @include breakpoint(large) {
+            font-size: rem-calc(30);
+            padding: rem-calc(45 30 15 30);
+        }
+    }
+    &:hover {
+        .image {
+            transform: scale(1.05);
+        }
+    }
+}

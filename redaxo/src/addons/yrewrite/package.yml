@@ -1,0 +1,21 @@
+package: yrewrite
+version: '2.3'
+author: Jan Kristinus, Gregor Harlan
+supportpage: www.redaxo.org/de/forum/
+
+page:
+    title: YRewrite
+    perm: yrewrite[forward]
+    pjax: true
+    subpages:
+        domains: { title: 'translate:domains', perm: admin }
+        alias_domains: { title: 'translate:alias_domains', perm: admin }
+        forward: { title: 'translate:forward', perm: 'yrewrite[forward]' }
+        setup: { title: 'translate:setup', perm: admin }
+        docs: { title: 'translate:docs' }
+
+requires:
+    redaxo: '^5.5'
+    packages:
+        structure: '^2.0'
+        yform/manager: '^2.0'

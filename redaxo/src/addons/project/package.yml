@@ -1,0 +1,14 @@
+package: project
+version: dev
+author: Johannes Ganthaler
+compile: 1
+supportpage: www.redaxo.org/de/forum/
+
+page:
+    title: translate:project_settings
+    perm: project[]
+    subpages:
+        settings:
+            title: translate:settings
+            perm: project[settings]
+

@@ -1,0 +1,8 @@
+package: tinymce4
+version: '1.0.1'
+author: 'Adrian Kühnis'
+requires:
+    redaxo: ^5.1.0
+page:
+    title: 'Tinymce4'  
+    perm: tinymce4[]

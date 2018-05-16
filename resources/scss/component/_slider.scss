@@ -1,0 +1,83 @@
+.slider {
+    position: relative;
+    .slider-image {
+        @include background-image();
+        position: relative;
+        width: 100%;
+        height: rem-calc(320);
+        @include breakpoint(medium) {
+            height: rem-calc(720);
+        }
+        @include breakpoint(xlarge) {
+            height: calc(100vh - 140px);
+        }
+        // Prevent FOUC
+        &:not(:first-child) {
+            display: none;
+        }
+        &.slider-image-has-caption {
+            &:before {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                background-color: rgba($dark-gray, 0.6);
+            }
+        }
+    }
+    &.slick-initialized {
+        .slider-image {
+            display: block;
+        }
+    }
+}
+
+.slider-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: rem-calc(15);
+    right: rem-calc(15);
+    z-index: 1000;
+    color: $white;
+    text-align: center;
+    @include breakpoint(medium) {
+        left: rem-calc(60);
+        right: rem-calc(60);
+    }
+
+    @include breakpoint(large) {
+        left: rem-calc(120);
+        right: rem-calc(120);
+    }
+    .heading {
+        color: $white;
+        font-size: rem-calc(24);
+        line-height: 1.2;
+        margin-bottom: 0.5em;
+        @include breakpoint(medium) {
+            font-size: rem-calc(36);
+        }
+        @include breakpoint(large) {
+            font-size: rem-calc(48);
+        }
+    }
+
+    .text {
+        font-size: rem-calc(16);
+        @include breakpoint(medium) {
+            font-size: rem-calc(24);
+            line-height: 1.2;
+        }
+    }
+
+    .button {
+        margin: 1rem 0 0 0;
+        @include breakpoint(medium) {
+            margin: 2rem 0.5rem 0 0.5rem;
+        }
+    }
+}

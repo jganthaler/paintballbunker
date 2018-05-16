@@ -1,0 +1,12 @@
+*.DS_Store
+.idea
+.project
+.buildpath
+.settings/
+media/
+node_modules
+resources/dist
+!resources/dist/.placeholder
+redaxo/cache/addons/*
+redaxo/cache/core/*
+redaxo/data/addons/phpmailer/mail_backup/*

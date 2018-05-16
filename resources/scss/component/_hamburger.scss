@@ -1,0 +1,60 @@
+$hamburger-size: rem-calc(20);
+
+.hamburger {
+    display: block;
+    position: relative;
+    color: $dark-gray;
+    outline: none;
+    transition: $global-transition;
+    cursor: pointer;
+    user-select: none;
+    height: rem-calc(40);
+    width: rem-calc(40);
+    text-align: center;
+    background-color: $light-gray;
+    border: 2px solid $dark-gray;
+    .lines {
+        display: block;
+        width: $hamburger-size;
+        height: $hamburger-size/10;
+        background: $dark-gray;
+        transition: all 0.3s ease;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        &:before, &:after {
+            display: block;
+            width: $hamburger-size;
+            height: $hamburger-size/10;
+            background: $dark-gray;
+            transition: all 0.3s;
+            position: absolute;
+            left: 0;
+            content: '';
+            transform-origin: $hamburger-size/20 center;
+        }
+        &:before {
+            top: $hamburger-size/4;
+        }
+        &:after {
+            top: -$hamburger-size/4;
+        }
+    }
+    &.expanded {
+        .lines {
+            background: transparent;
+            &:before, &:after {
+                transform-origin: 50% 50%;
+                top: 0;
+                width: $hamburger-size;
+            }
+            &:before {
+                transform: rotate3d(0, 0, 1, 45deg);
+            }
+            &:after {
+                transform: rotate3d(0, 0, 1, -45deg);
+            }
+        }
+    }
+}

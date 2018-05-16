@@ -1,0 +1,87 @@
+$form-size: rem-calc(16);
+
+.custom-checkbox,
+.custom-radio {
+    position: relative;
+    label {
+        position: relative;
+        display: block;
+        line-height: $form-size;
+        padding-left: $form-size * 1.6;
+        cursor: pointer;
+        span {
+            display: block;
+            width: $form-size;
+            height: $form-size;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 0;
+            border: 1px solid $medium-gray;
+            &.checkbox {
+                border-radius: 0;
+            }
+            &.radio {
+                border-radius: 50%;
+            }
+        }
+        input {
+            position: absolute;
+            left: rem-calc(-9999);
+            &:checked {
+                & ~ span {
+                    &:before {
+                        display: block;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                    }
+                    &.checkbox {
+                        &:before {
+                            content: '✔';
+                            font-size: rem-calc(14);
+                        }
+                    }
+                    &.radio {
+                        &:before {
+                            content: '';
+                            width: $form-size / 2;
+                            height: $form-size / 2;
+                            background: $black;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.form-is-required {
+    label {
+        &:after {
+            content: ' *';
+            color: $alert-color;
+        }
+    }
+}
+
+.form-warning {
+    label {
+        color: $alert-color;
+    }
+
+    textarea,
+    &.custom-checkbox,
+    &.custom-radio {
+        span {
+            border: 1px solid $alert-color;
+        }
+    }
+
+    input[type=text], select {
+        border-bottom: 1px solid $alert-color;
+    }
+}
+

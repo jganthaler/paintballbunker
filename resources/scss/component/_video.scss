@@ -1,0 +1,60 @@
+.video-block {
+    @include background-image();
+    position: relative;
+    height: rem-calc(320);
+    @include breakpoint(medium) {
+        height: rem-calc(480);
+    }
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba($dark-gray, 0.6);
+    }
+}
+
+.video-caption {
+    @include absolute-center();
+    text-align: center;
+    color: $light-gray;
+    .heading {
+        margin-top: 0.5em;
+        margin-bottom: 0;
+    }
+    .play-button {
+        width: rem-calc(60);
+        height: rem-calc(60);
+        line-height: rem-calc(60);
+        text-align: center;
+        font-size: rem-calc(48);
+        display: inline-block;
+        border-radius: 50%;
+        color: $primary-color;
+        transition: background-color 0.3s ease;
+        outline: none;
+        position: relative;
+        box-shadow: 0 0 4px 0 rgba($black, 0.2);
+        @include breakpoint(medium) {
+            width: rem-calc(80);
+            height: rem-calc(80);
+            line-height: rem-calc(80);
+            font-size: rem-calc(72);
+        }
+        i {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        &:hover {
+            background-color: $light-gray;
+        }
+        &:focus {
+            color: $light-gray;
+        }
+    }
+}

@@ -1,0 +1,127 @@
+@charset 'UTF-8';
+
+/* Slider */
+.slick-list {
+    .slick-loading & {
+        background: url('../img/ajax-loader.gif') center center no-repeat;
+    }
+}
+
+/* Arrows */
+.slick-prev,
+.slick-next {
+    position: absolute;
+    z-index: 3;
+    display: block;
+    height: rem-calc(40);
+    width: rem-calc(40);
+    line-height: 0;
+    font-size: 0;
+    cursor: pointer;
+    background: transparent;
+    color: transparent;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding: 0;
+    border: 0;
+    outline: none;
+    border-radius: 0;
+    transition: opacity 1s ease;
+    @include breakpoint(medium) {
+        height: rem-calc(80);
+        width: rem-calc(60);
+    }
+    &:hover, &:focus {
+        outline: none;
+    }
+    &.slick-disabled {
+        &:before {
+            opacity: 0.5;
+        }
+    }
+    &:before {
+        font-family: 'icomoon' !important;
+        font-size: rem-calc(36);
+        line-height: rem-calc(40);
+        color: $white;
+        @include breakpoint(medium) {
+            font-size: rem-calc(72);
+            line-height: rem-calc(80);
+        }
+    }
+}
+
+.slick-prev {
+    left: 0;
+    @include breakpoint(large) {
+        left: 2rem;
+    }
+    &:before {
+        content: '\e91b';
+    }
+}
+
+.slick-next {
+    right: 0;
+    @include breakpoint(large) {
+        right: 2rem;
+    }
+    &:before {
+        content: '\e91b';
+    }
+}
+
+.slick-slide {
+    outline: none;
+}
+
+/* Dots */
+
+.slick-dots {
+    position: absolute;
+    bottom: rem-calc(15);
+    list-style: none;
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    line-height: rem-calc(12);
+    li {
+        position: relative;
+        display: inline-block;
+        vertical-align: top;
+        height: rem-calc(12);
+        width: rem-calc(12);
+        margin: rem-calc(0 5);
+        padding: 0;
+        cursor: pointer;
+        button {
+            border: 0;
+            background-color: transparent;
+            display: block;
+            height: rem-calc(12);
+            width: rem-calc(12);
+            outline: none;
+            color: transparent;
+            cursor: pointer;
+            &:before {
+                position: absolute;
+                top: 0;
+                left: 0;
+                content: '';
+                width: rem-calc(12);
+                height: rem-calc(12);
+                border-radius: 50%;
+                background-color: $dark-gray;
+            }
+        }
+        &.slick-active {
+            button {
+                &:before {
+                    background-color: $primary-color;
+                }
+            }
+        }
+    }
+}

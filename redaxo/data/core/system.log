@@ -1,0 +1,384 @@
+2018-04-30 21:04:15 | Warning | include(pages/general.php) [<a href='https://php.net/manual/function.include'>function.include</a>]: failed to open stream: No such file or directory | redaxo/src/core/lib/packages/package.php | 231
+2018-04-30 21:04:15 | Warning | include() [<a href='https://php.net/manual/function.include'>function.include</a>]: Failed opening 'pages/general.php' for inclusion (include_path='.:/usr/share/php') | redaxo/src/core/lib/packages/package.php | 231
+2018-04-30 21:04:23 | Warning | include(pages/extended.php) [<a href='https://php.net/manual/function.include'>function.include</a>]: failed to open stream: No such file or directory | redaxo/src/core/lib/packages/package.php | 231
+2018-04-30 21:04:23 | Warning | include() [<a href='https://php.net/manual/function.include'>function.include</a>]: Failed opening 'pages/extended.php' for inclusion (include_path='.:/usr/share/php') | redaxo/src/core/lib/packages/package.php | 231
+2018-04-30 21:04:24 | Warning | include(pages/general.php) [<a href='https://php.net/manual/function.include'>function.include</a>]: failed to open stream: No such file or directory | redaxo/src/core/lib/packages/package.php | 231
+2018-04-30 21:04:24 | Warning | include() [<a href='https://php.net/manual/function.include'>function.include</a>]: Failed opening 'pages/general.php' for inclusion (include_path='.:/usr/share/php') | redaxo/src/core/lib/packages/package.php | 231
+2018-04-30 21:04:49 | Warning | include() [<a href='https://php.net/manual/function.include'>function.include</a>]: Filename cannot be empty | redaxo/src/core/lib/be/controller.php | 449
+2018-04-30 21:04:49 | Warning | include() [<a href='https://php.net/manual/function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.:/usr/share/php') | redaxo/src/core/lib/be/controller.php | 449
+2018-04-30 21:05:12 | Warning | include() [<a href='https://php.net/manual/function.include'>function.include</a>]: Filename cannot be empty | redaxo/src/core/lib/be/controller.php | 449
+2018-04-30 21:05:12 | Warning | include() [<a href='https://php.net/manual/function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.:/usr/share/php') | redaxo/src/core/lib/be/controller.php | 449
+2018-04-30 21:08:01 | Warning | include(pages/settings.php) [<a href='https://php.net/manual/function.include'>function.include</a>]: failed to open stream: No such file or directory | redaxo/src/core/lib/packages/package.php | 231
+2018-04-30 21:08:01 | Warning | include() [<a href='https://php.net/manual/function.include'>function.include</a>]: Failed opening 'pages/settings.php' for inclusion (include_path='.:/usr/share/php') | redaxo/src/core/lib/packages/package.php | 231
+2018-04-30 21:09:10 | Warning | include(pages/settings.php) [<a href='https://php.net/manual/function.include'>function.include</a>]: failed to open stream: No such file or directory | redaxo/src/core/lib/packages/package.php | 231
+2018-04-30 21:09:10 | Warning | include() [<a href='https://php.net/manual/function.include'>function.include</a>]: Failed opening 'pages/settings.php' for inclusion (include_path='.:/usr/share/php') | redaxo/src/core/lib/packages/package.php | 231
+2018-04-30 21:09:11 | Warning | include(pages/settings.php) [<a href='https://php.net/manual/function.include'>function.include</a>]: failed to open stream: No such file or directory | redaxo/src/core/lib/packages/package.php | 231
+2018-04-30 21:09:11 | Warning | include() [<a href='https://php.net/manual/function.include'>function.include</a>]: Failed opening 'pages/settings.php' for inclusion (include_path='.:/usr/share/php') | redaxo/src/core/lib/packages/package.php | 231
+2018-04-30 21:09:25 | Warning | include(pages/settings.php) [<a href='https://php.net/manual/function.include'>function.include</a>]: failed to open stream: No such file or directory | redaxo/src/core/lib/packages/package.php | 231
+2018-04-30 21:09:25 | Warning | include() [<a href='https://php.net/manual/function.include'>function.include</a>]: Failed opening 'pages/settings.php' for inclusion (include_path='.:/usr/share/php') | redaxo/src/core/lib/packages/package.php | 231
+2018-04-30 21:09:56 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:09:56 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:09:56 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:09:56 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:09:56 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:09:56 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:09:56 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:09:56 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:09:56 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:09:56 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:09:56 | Notice | Undefined variable: page_title | redaxo/src/addons/project/pages/settings.php | 24
+2018-04-30 21:11:30 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:11:30 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:11:30 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:11:30 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:11:30 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:11:30 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:11:30 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:11:30 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:11:30 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:11:30 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:14:37 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:14:37 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:14:37 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:14:37 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:14:37 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:14:37 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:14:37 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:14:37 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:14:37 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:14:37 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:17:15 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:17:15 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:17:15 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:17:15 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:17:15 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:17:15 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:17:15 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:17:15 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:17:15 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:17:15 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:17:17 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:17:17 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:17:17 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:17:17 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:17:17 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:17:17 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:17:17 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:17:17 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:17:17 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:17:17 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:17:18 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:17:18 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:17:18 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:17:18 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:17:18 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:17:18 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:17:18 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:17:18 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:17:18 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:17:18 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 30
+2018-04-30 21:19:30 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:19:30 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:19:30 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:19:30 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:19:30 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:19:30 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:19:30 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:19:30 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:19:30 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:19:30 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:20:32 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:20:32 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:20:32 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:20:32 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:20:32 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:20:32 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:20:32 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:20:32 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:20:32 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:20:32 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:25:19 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:25:19 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:25:19 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:25:19 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:25:19 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:25:19 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:25:19 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:25:19 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:25:19 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:25:19 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:28:09 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:28:09 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:28:09 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:28:09 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:28:09 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:28:09 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:28:09 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:28:09 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:28:09 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 21:28:09 | Warning | array_key_exists() expects parameter 2 to be array, null given | redaxo/src/addons/project/lib/Settings.php | 31
+2018-04-30 22:20:44 | Error | Class 'Kreatif\Resource' not found | redaxo/src/addons/project/fragments/default/head.php | 47
+2018-04-30 22:34:25 | rex_exception | Fragmentfile "kreatif/templates/default/header/navigation.php" not found! | redaxo/src/core/lib/fragment.php | 122
+2018-04-30 22:41:13 | Warning | file_put_contents(/home/vagrant/Projects/paintballbunker/assets/addons/tinymce4/tinymce4_init.de.js) [<a href='https://php.net/manual/function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory | redaxo/src/addons/tinymce4/lib/Services/ProfileRepository.php | 94
+2018-04-30 22:41:13 | Warning | file_put_contents(/home/vagrant/Projects/paintballbunker/assets/addons/tinymce4/tinymce4_init.en_gb.js) [<a href='https://php.net/manual/function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory | redaxo/src/addons/tinymce4/lib/Services/ProfileRepository.php | 94
+2018-04-30 22:42:00 | Error | Class 'Kreatif\Project\Settings' not found | rex:///module/1/output | 6
+2018-04-30 23:43:23 | Fatal error | Cannot redefine class constant Project\Settings::COOKIE_PAGE_ID | redaxo/src/addons/project/lib/Settings.php | 9
+2018-05-01 15:44:07 | Notice | Undefined index: re_id | redaxo/src/addons/yrewrite/lib/yrewrite.php | 472
+2018-05-01 15:44:07 | Notice | Undefined index: re_id | redaxo/src/addons/yrewrite/lib/yrewrite.php | 472
+2018-05-01 15:44:07 | Notice | Undefined index: re_id | redaxo/src/addons/yrewrite/lib/yrewrite.php | 472
+2018-05-01 15:48:30 | Notice | Undefined variable: id | redaxo/src/addons/tinymce4/views/backend/config_edit.php | 2
+2018-05-01 16:16:43 | Fatal error | Object of class rex_media could not be converted to string | rex:///module/6/output | 15
+2018-05-01 16:30:19 | Fatal error | Object of class rex_managed_media could not be converted to string | rex:///module/6/output | 16
+2018-05-01 16:30:50 | Notice | Undefined index: src | redaxo/src/addons/media_manager/lib/managed_media.php | 221
+2018-05-01 16:32:34 | Notice | Undefined variable: background | rex:///module/6/output | 17
+2018-05-01 16:35:28 | Notice | Undefined index: src | redaxo/src/addons/media_manager/lib/managed_media.php | 221
+2018-05-01 16:37:53 | Notice | Undefined index: src | redaxo/src/addons/media_manager/lib/managed_media.php | 221
+2018-05-01 16:45:27 | Error | Class 'Project\Utils' not found | redaxo/src/addons/project/lib/Resource.php | 98
+2018-05-01 16:46:40 | Error | Class 'Project\MediaManager' not found | redaxo/src/addons/project/lib/Resource.php | 127
+2018-05-01 16:55:43 | Error | Access to undeclared static property: rex_path::$has_caption | rex:///module/6/output | 12
+2018-05-01 17:11:19 | Notice | Undefined variable: values | rex:///module/4/output | 4
+2018-05-01 17:11:21 | Error | Class 'Kreatif\Project\Settings' not found | rex:///module/4/output | 4
+2018-05-01 17:13:02 | Notice | Undefined variable: values | rex:///module/4/output | 3
+2018-05-01 17:14:18 | Notice | Undefined variable: values | rex:///module/4/output | 2
+2018-05-01 17:14:20 | Notice | Undefined variable: values | rex:///module/4/output | 2
+2018-05-01 17:14:45 | Notice | Undefined offset: 0 | rex:///module/4/output | 81
+2018-05-01 17:14:45 | Error | Call to undefined method rex_yform::isSend() | rex:///module/4/output | 135
+2018-05-01 17:27:55 | Notice | Undefined offset: 0 | rex:///module/4/output | 81
+2018-05-01 17:34:11 | Notice | Undefined offset: 0 | rex:///module/4/output | 81
+2018-05-01 17:34:55 | Notice | Undefined offset: 0 | rex:///module/4/output | 81
+2018-05-01 17:35:05 | Notice | Undefined offset: 0 | rex:///module/4/output | 81
+2018-05-01 17:37:06 | Notice | Undefined offset: 0 | rex:///module/4/output | 81
+2018-05-01 17:38:05 | Notice | Undefined offset: 0 | rex:///module/4/output | 81
+2018-05-01 17:39:26 | Notice | Undefined offset: 0 | rex:///module/4/output | 81
+2018-05-01 17:39:55 | Notice | Undefined offset: 0 | rex:///module/4/output | 83
+2018-05-01 17:40:14 | Notice | Undefined offset: 0 | rex:///module/4/output | 83
+2018-05-01 17:40:16 | Notice | Undefined offset: 0 | rex:///module/4/output | 83
+2018-05-01 17:41:12 | Notice | Undefined offset: 0 | rex:///module/4/output | 83
+2018-05-01 17:41:28 | Notice | Undefined offset: 0 | rex:///module/4/output | 83
+2018-05-01 17:42:19 | Notice | Undefined offset: 0 | rex:///module/4/output | 83
+2018-05-01 18:03:24 | Error | Call to undefined method rex_yform_value_text::getAttributeElement() | redaxo/src/addons/project/ytemplates/foundation/value.text.tpl.php | 33
+2018-05-01 18:11:17 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-01 18:11:17 | Warning | yform template value.hidden.tpl.php not found | redaxo/src/addons/yform/lib/yform.php | 449
+2018-05-01 18:11:17 | Warning | include() [<a href='https://php.net/manual/function.include'>function.include</a>]: Filename cannot be empty | redaxo/src/addons/yform/lib/yform/value/abstract.php | 139
+2018-05-01 18:11:17 | Warning | include() [<a href='https://php.net/manual/function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.:/usr/share/php') | redaxo/src/addons/yform/lib/yform/value/abstract.php | 139
+2018-05-01 18:12:34 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-01 18:12:34 | Warning | yform template value.hidden.tpl.php not found | redaxo/src/addons/yform/lib/yform.php | 449
+2018-05-01 18:12:34 | Warning | include() [<a href='https://php.net/manual/function.include'>function.include</a>]: Filename cannot be empty | redaxo/src/addons/yform/lib/yform/value/abstract.php | 139
+2018-05-01 18:12:34 | Warning | include() [<a href='https://php.net/manual/function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.:/usr/share/php') | redaxo/src/addons/yform/lib/yform/value/abstract.php | 139
+2018-05-01 18:14:26 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-01 18:14:26 | Warning | yform template value.hidden.tpl.php not found | redaxo/src/addons/yform/lib/yform.php | 449
+2018-05-01 18:14:26 | Warning | include() [<a href='https://php.net/manual/function.include'>function.include</a>]: Filename cannot be empty | redaxo/src/addons/yform/lib/yform/value/abstract.php | 139
+2018-05-01 18:14:26 | Warning | include() [<a href='https://php.net/manual/function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.:/usr/share/php') | redaxo/src/addons/yform/lib/yform/value/abstract.php | 139
+2018-05-01 18:15:16 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-01 18:15:30 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-01 18:15:51 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-01 18:18:09 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-01 18:18:45 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-01 18:25:23 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-01 18:25:23 | Notice | Undefined index: mail_to | redaxo/src/addons/yform/plugins/email/lib/yform_email_template.php | 107
+2018-05-01 18:25:23 | Notice | Undefined index: mail_to_name | redaxo/src/addons/yform/plugins/email/lib/yform_email_template.php | 107
+2018-05-01 18:27:27 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-01 18:28:25 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-01 18:29:00 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-01 18:29:19 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-01 18:33:06 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-01 18:33:24 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-01 18:40:15 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-01 18:40:31 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-01 19:08:02 | Error | Class 'Kreatif\Geo\GeoJson' not found | rex:///module/5/output | 15
+2018-05-01 19:53:27 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-05 11:06:46 | rex_sql_exception | Could not connect to database | redaxo/src/core/lib/sql/sql.php | 82
+2018-05-05 11:06:56 | rex_sql_exception | Could not connect to database | redaxo/src/core/lib/sql/sql.php | 82
+2018-05-05 11:08:59 | rex_sql_exception | Could not connect to database | redaxo/src/core/lib/sql/sql.php | 82
+2018-05-05 11:35:59 | Error | Call to a member function getName() on null | redaxo/src/addons/project/fragments/default/footer.php | 67
+2018-05-05 13:10:19 | Notice | Undefined index: REX_LINK_1 | rex:///module/3/output | 29
+2018-05-05 13:10:29 | Notice | Undefined index: REX_LINK_1 | rex:///module/3/output | 29
+2018-05-05 13:11:23 | Notice | Undefined index: REX_LINK_1 | rex:///module/3/output | 29
+2018-05-05 13:11:27 | Notice | Undefined index: REX_LINK_1 | rex:///module/3/output | 29
+2018-05-05 13:12:56 | Notice | Undefined index: REX_LINK_1 | rex:///module/3/output | 29
+2018-05-05 13:12:58 | Notice | Undefined index: REX_LINK_1 | rex:///module/3/output | 29
+2018-05-05 13:16:51 | Notice | Undefined index: REX_LINK_1 | rex:///module/3/output | 29
+2018-05-05 13:17:00 | Notice | Undefined index: REX_LINK_1 | rex:///module/3/output | 29
+2018-05-05 13:18:56 | Notice | Undefined index: REX_LINK_1 | rex:///module/3/output | 29
+2018-05-05 13:29:48 | Notice | Undefined index: REX_LINK_1 | rex:///module/3/output | 29
+2018-05-05 13:31:31 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-05 13:43:32 | Notice | Undefined index: REX_LINK_1 | rex:///module/3/output | 29
+2018-05-05 13:43:42 | Notice | Undefined index: REX_LINK_1 | rex:///module/3/output | 29
+2018-05-05 13:46:33 | Notice | Undefined index: REX_LINK_1 | rex:///module/3/output | 29
+2018-05-05 13:46:51 | Notice | Undefined index: REX_LINK_1 | rex:///module/3/output | 29
+2018-05-05 13:46:52 | Notice | Undefined index: REX_LINK_1 | rex:///module/3/output | 29
+2018-05-05 13:49:18 | Notice | Undefined index: REX_LINK_1 | rex:///module/3/output | 29
+2018-05-05 13:49:24 | Notice | Undefined index: REX_LINK_1 | rex:///module/3/output | 29
+2018-05-05 13:50:11 | Notice | Undefined index: REX_LINK_1 | rex:///module/3/output | 29
+2018-05-05 13:50:12 | Notice | Undefined index: REX_LINK_1 | rex:///module/3/output | 29
+2018-05-05 14:07:56 | Notice | Undefined index: REX_LINK_1 | rex:///module/3/output | 29
+2018-05-05 14:08:03 | Notice | Undefined index: REX_LINK_1 | rex:///module/3/output | 29
+2018-05-05 14:08:28 | Notice | Undefined index: REX_LINK_1 | rex:///module/3/output | 29
+2018-05-05 14:10:17 | Notice | Undefined index: REX_LINK_1 | rex:///module/3/output | 29
+2018-05-05 14:11:38 | Notice | Undefined index: REX_LINK_1 | rex:///module/3/output | 29
+2018-05-05 14:11:40 | Notice | Undefined index: REX_LINK_1 | rex:///module/3/output | 29
+2018-05-05 14:11:58 | Notice | Undefined index: REX_LINK_1 | rex:///module/3/output | 29
+2018-05-05 14:12:44 | Notice | Undefined index: REX_LINK_1 | rex:///module/3/output | 29
+2018-05-05 18:47:55 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-05 18:50:10 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-06 10:27:47 | Error | Class 'Kreatif\Resource' not found | rex:///module/7/output | 8
+2018-05-06 10:27:52 | Error | Class 'Kreatif\Resource' not found | rex:///module/7/output | 8
+2018-05-06 10:44:08 | Notice | Undefined variable: image_src_1 | rex:///module/7/output | 5
+2018-05-06 10:44:09 | Notice | Undefined variable: image_src_1 | rex:///module/7/output | 5
+2018-05-06 12:07:34 | Notice | Undefined variable: image_src_1 | rex:///module/7/output | 5
+2018-05-06 12:07:36 | Notice | Undefined variable: image_src_1 | rex:///module/7/output | 5
+2018-05-06 15:09:33 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-06 16:17:20 | Notice | Undefined index: text_link | rex:///module/3/output | 33
+2018-05-06 16:18:07 | Notice | Undefined index: link | rex:///module/3/output | 13
+2018-05-06 16:18:07 | Notice | Undefined index: show_request_button | rex:///module/3/output | 13
+2018-05-06 16:19:02 | Notice | Undefined index: link | rex:///module/3/output | 13
+2018-05-06 16:19:02 | Notice | Undefined index: show_request_button | rex:///module/3/output | 13
+2018-05-06 16:19:02 | Notice | Undefined index: link | rex:///module/3/output | 13
+2018-05-06 16:19:02 | Notice | Undefined index: show_request_button | rex:///module/3/output | 13
+2018-05-06 16:19:02 | Notice | Undefined index: link | rex:///module/3/output | 13
+2018-05-06 16:19:02 | Notice | Undefined index: show_request_button | rex:///module/3/output | 13
+2018-05-06 17:03:19 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-06 17:04:43 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-06 17:04:45 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-06 17:05:18 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-06 17:05:33 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-06 17:05:35 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-06 17:06:03 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-06 17:07:23 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-06 17:07:25 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-06 19:51:35 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-06 19:51:45 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-06 19:55:35 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-06 19:58:58 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-06 20:33:07 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-06 20:42:42 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-06 20:45:23 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-06 20:46:43 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-06 20:51:52 | Notice | Undefined index: spacing | rex:///module/4/output | 4
+2018-05-06 20:51:52 | Notice | Undefined index: spacing | rex:///module/4/output | 7
+2018-05-06 20:51:52 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-06 20:52:10 | Notice | Undefined index: spacing | rex:///module/4/output | 4
+2018-05-06 20:52:10 | Notice | Undefined index: spacing | rex:///module/4/output | 7
+2018-05-06 20:52:18 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-06 20:52:23 | Notice | Undefined index: spacing | rex:///module/4/output | 4
+2018-05-06 20:52:23 | Notice | Undefined index: spacing | rex:///module/4/output | 7
+2018-05-06 20:52:31 | Notice | Undefined index: spacing | rex:///module/4/output | 4
+2018-05-06 20:52:31 | Notice | Undefined index: spacing | rex:///module/4/output | 7
+2018-05-06 20:52:44 | Notice | Undefined index: spacing | rex:///module/4/output | 4
+2018-05-06 20:52:44 | Notice | Undefined index: spacing | rex:///module/4/output | 7
+2018-05-06 20:52:52 | Notice | Undefined index: spacing | rex:///module/4/output | 4
+2018-05-06 20:52:52 | Notice | Undefined index: spacing | rex:///module/4/output | 7
+2018-05-06 20:54:11 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-06 20:57:29 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-06 20:57:56 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-06 20:58:15 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-06 20:58:31 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-07 20:39:44 | Notice | Undefined index: background | rex:///module/4/output | 5
+2018-05-07 20:39:44 | Notice | Undefined index: background | rex:///module/4/output | 17
+2018-05-07 20:40:06 | Notice | Undefined index: background | rex:///module/4/output | 5
+2018-05-07 20:40:06 | Notice | Undefined index: background | rex:///module/4/output | 17
+2018-05-07 20:40:06 | Notice | Undefined index: background | rex:///module/4/output | 25
+2018-05-07 21:08:29 | Notice | Undefined index: background | rex:///module/4/output | 5
+2018-05-07 21:08:29 | Notice | Undefined index: background | rex:///module/4/output | 25
+2018-05-07 21:08:41 | Notice | Undefined index: background | rex:///module/4/output | 5
+2018-05-07 21:12:22 | Notice | Undefined index: background | rex:///module/4/output | 5
+2018-05-07 21:12:22 | Notice | Undefined index: background | rex:///module/4/output | 25
+2018-05-07 21:12:22 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-07 21:12:48 | Notice | Undefined index: background | rex:///module/4/output | 5
+2018-05-07 21:12:58 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-07 21:18:07 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-07 21:18:43 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-07 21:19:05 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-07 23:15:28 | Warning | mkdir() [<a href='https://php.net/manual/function.mkdir'>function.mkdir</a>]: File exists | redaxo/src/core/lib/util/dir.php | 31
+2018-05-13 21:25:13 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 20:58:11 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 20:59:27 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 20:59:29 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 20:59:39 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 20:59:56 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:02:08 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:02:29 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:08:32 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:09:22 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:10:12 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:14:43 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:16:49 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:17:10 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:17:20 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:18:55 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:20:10 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:20:10 | InvalidArgumentException | Expecting $text to be a String, "boolean" given! | redaxo/src/core/lib/util/i18n.php | 208
+2018-05-14 21:20:47 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:20:47 | InvalidArgumentException | Expecting $text to be a String, "boolean" given! | redaxo/src/core/lib/util/i18n.php | 208
+2018-05-14 21:20:48 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:20:48 | InvalidArgumentException | Expecting $text to be a String, "boolean" given! | redaxo/src/core/lib/util/i18n.php | 208
+2018-05-14 21:21:00 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:21:00 | InvalidArgumentException | Expecting $text to be a String, "boolean" given! | redaxo/src/core/lib/util/i18n.php | 208
+2018-05-14 21:21:05 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:21:05 | InvalidArgumentException | Expecting $text to be a String, "boolean" given! | redaxo/src/core/lib/util/i18n.php | 208
+2018-05-14 21:21:27 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:22:12 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:22:12 | InvalidArgumentException | Expecting $text to be a String, "boolean" given! | redaxo/src/core/lib/util/i18n.php | 208
+2018-05-14 21:29:22 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:29:22 | InvalidArgumentException | Expecting $text to be a String, "boolean" given! | redaxo/src/core/lib/util/i18n.php | 208
+2018-05-14 21:29:24 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:29:24 | InvalidArgumentException | Expecting $text to be a String, "boolean" given! | redaxo/src/core/lib/util/i18n.php | 208
+2018-05-14 21:29:57 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:29:57 | InvalidArgumentException | Expecting $text to be a String, "boolean" given! | redaxo/src/core/lib/util/i18n.php | 208
+2018-05-14 21:29:59 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:29:59 | InvalidArgumentException | Expecting $text to be a String, "boolean" given! | redaxo/src/core/lib/util/i18n.php | 208
+2018-05-14 21:30:11 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:30:11 | InvalidArgumentException | Expecting $text to be a String, "boolean" given! | redaxo/src/core/lib/util/i18n.php | 208
+2018-05-14 21:30:52 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:30:52 | InvalidArgumentException | Expecting $text to be a String, "boolean" given! | redaxo/src/core/lib/util/i18n.php | 208
+2018-05-14 21:30:53 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:30:53 | InvalidArgumentException | Expecting $text to be a String, "boolean" given! | redaxo/src/core/lib/util/i18n.php | 208
+2018-05-14 21:31:13 | Notice | Undefined variable: privacy_url | rex:///module/6/output | 8
+2018-05-14 21:31:13 | Notice | Undefined variable: privacy_url | rex:///module/6/output | 112
+2018-05-14 21:31:13 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:32:15 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:32:15 | InvalidArgumentException | Expecting $text to be a String, "boolean" given! | redaxo/src/core/lib/util/i18n.php | 208
+2018-05-14 21:34:27 | ParseError | syntax error, unexpected '.' | rex:///module/6/output | 114
+2018-05-14 21:34:41 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:34:41 | InvalidArgumentException | Expecting $text to be a String, "boolean" given! | redaxo/src/core/lib/util/i18n.php | 208
+2018-05-14 21:35:08 | Notice | Undefined variable: test | rex:///module/6/output | 114
+2018-05-14 21:35:08 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:36:26 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:36:26 | InvalidArgumentException | Expecting $text to be a String, "boolean" given! | redaxo/src/core/lib/util/i18n.php | 208
+2018-05-14 21:37:41 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:39:40 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:40:06 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:40:06 | InvalidArgumentException | Expecting $text to be a String, "boolean" given! | redaxo/src/core/lib/util/i18n.php | 208
+2018-05-14 21:40:16 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:40:24 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:41:36 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:41:36 | InvalidArgumentException | Expecting $text to be a String, "boolean" given! | redaxo/src/core/lib/util/i18n.php | 208
+2018-05-14 21:42:41 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:42:55 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:43:01 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:43:04 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:43:08 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:44:10 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:45:01 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:45:21 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:45:43 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:45:43 | Notice | Undefined index: mail_from | redaxo/src/addons/yform/plugins/email/lib/yform_email_template.php | 108
+2018-05-14 21:45:43 | Notice | Undefined index: mail_from_name | redaxo/src/addons/yform/plugins/email/lib/yform_email_template.php | 108
+2018-05-14 21:45:43 | Notice | Undefined index: subject | redaxo/src/addons/yform/plugins/email/lib/yform_email_template.php | 109
+2018-05-14 21:45:43 | Notice | Undefined index: body | redaxo/src/addons/yform/plugins/email/lib/yform_email_template.php | 110
+2018-05-14 21:45:43 | Notice | Undefined index: body_html | redaxo/src/addons/yform/plugins/email/lib/yform_email_template.php | 111
+2018-05-14 21:45:43 | Notice | Undefined index: body | redaxo/src/addons/yform/plugins/email/lib/yform_email_template.php | 117
+2018-05-14 21:45:43 | Notice | Undefined index: attachments | redaxo/src/addons/yform/plugins/email/lib/yform_email_template.php | 120
+2018-05-14 21:45:43 | Notice | Undefined index: subject | redaxo/src/addons/yform/plugins/email/lib/yform_email_template.php | 133
+2018-05-14 21:47:14 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-14 21:47:14 | Notice | Undefined index: mail_from | redaxo/src/addons/yform/plugins/email/lib/yform_email_template.php | 108
+2018-05-14 21:47:14 | Notice | Undefined index: mail_from_name | redaxo/src/addons/yform/plugins/email/lib/yform_email_template.php | 108
+2018-05-14 21:47:14 | Notice | Undefined index: subject | redaxo/src/addons/yform/plugins/email/lib/yform_email_template.php | 109
+2018-05-14 21:47:14 | Notice | Undefined index: body | redaxo/src/addons/yform/plugins/email/lib/yform_email_template.php | 110
+2018-05-14 21:47:14 | Notice | Undefined index: body_html | redaxo/src/addons/yform/plugins/email/lib/yform_email_template.php | 111
+2018-05-14 21:47:14 | Notice | Undefined index: body | redaxo/src/addons/yform/plugins/email/lib/yform_email_template.php | 117
+2018-05-14 21:47:14 | Notice | Undefined index: attachments | redaxo/src/addons/yform/plugins/email/lib/yform_email_template.php | 120
+2018-05-14 21:47:14 | Notice | Undefined index: subject | redaxo/src/addons/yform/plugins/email/lib/yform_email_template.php | 133
+2018-05-16 20:50:14 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-16 20:58:26 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30
+2018-05-16 20:58:28 | Notice | Undefined variable: class_label | redaxo/src/addons/project/ytemplates/foundation/value.select.tpl.php | 30

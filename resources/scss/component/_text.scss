@@ -1,0 +1,99 @@
+%spacing-default {
+    margin-top: $utils-margin-large;
+    margin-bottom: $utils-margin-large;
+    @include breakpoint(medium) {
+        margin-top: $utils-margin-large * $utils-margin-multiplicator;
+        margin-bottom: $utils-margin-large * $utils-margin-multiplicator;
+    }
+}
+
+%spacing-top-large {
+    padding-top: $utils-margin-large;
+    margin-bottom: $utils-margin;
+    @include breakpoint(medium) {
+        padding-top: $utils-margin-large * $utils-margin-multiplicator;
+        margin-bottom: $utils-margin * $utils-margin-multiplicator;
+    }
+}
+
+%spacing-bottom-large {
+    margin-top: $utils-margin;
+    padding-bottom: $utils-margin-large;
+    @include breakpoint(medium) {
+        margin-top: $utils-margin * $utils-margin-multiplicator;
+        padding-bottom: $utils-margin-large * $utils-margin-multiplicator;
+    }
+}
+
+.text-block {
+    &.spacing-default {
+        @extend %spacing-default;
+    }
+
+    &.spacing-top-large {
+        @extend %spacing-top-large;
+    }
+
+    &.spacing-bottom-large {
+        @extend %spacing-bottom-large;
+    }
+}
+
+.button-text-block {
+    text-align: center;
+    @include breakpoint(medium) {
+        text-align: left;
+    }
+    .button {
+        margin-top: 1rem;
+        @include breakpoint(medium) {
+            margin-top: 0;
+        }
+    }
+}
+
+.image-text-block {
+    .image-text-block-content {
+        .button {
+            margin-top: 1rem;
+        }
+    }
+    .image,
+    .video-wrapper {
+        margin-top: $utils-margin;
+        @include breakpoint(medium) {
+            margin-top: 0;
+        }
+    }
+
+    &.background-light-gray {
+        .image-text-block-content {
+            margin-top: $utils-margin;
+            margin-bottom: $utils-margin;
+            @include breakpoint(medium) {
+                margin-top: $utils-margin * $utils-margin-multiplicator;
+            }
+            @include breakpoint(large) {
+                margin-bottom: $utils-margin * $utils-margin-multiplicator;
+            }
+        }
+        .image,
+        .video-wrapper {
+            @include breakpoint(medium) {
+                margin-top: $utils-margin * $utils-margin-multiplicator;
+            }
+        }
+    }
+
+    &.spacing-default {
+        @extend %spacing-default;
+    }
+
+    &.spacing-top-large {
+        @extend %spacing-top-large;
+    }
+
+    &.spacing-bottom-large {
+        @extend %spacing-bottom-large;
+    }
+}

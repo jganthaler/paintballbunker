@@ -1,0 +1,93 @@
+.site-footer {
+    background-color: $light-gray;
+}
+
+.footer-heading {
+    margin-top: 2em;
+    @include breakpoint(large) {
+        margin-top: rem-calc(20);
+        line-height: rem-calc(30);
+        margin-bottom: rem-calc(30);
+    }
+}
+
+.footer-contact {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    & > li {
+        line-height: $global-lineheight;
+        position: relative;
+        padding-left: 1.5em;
+        &:before {
+            display: block;
+            content: '»';
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+    }
+}
+
+.footer-social {
+    a {
+        display: block;
+        float: left;
+        width: 50%;
+        color: $body-font-color;
+        line-height: rem-calc(30);
+        transition: all 0.3s ease;
+        span {
+            display: inline-block;
+            vertical-align: top;
+            line-height: rem-calc(30);
+        }
+        i {
+            display: inline-block;
+            line-height: rem-calc(30);
+            vertical-align: top;
+            margin-right: rem-calc(10);
+            font-size: rem-calc(30);
+        }
+        margin-bottom: 1em;
+        &:hover {
+            color: $primary-color;
+        }
+    }
+}
+
+.footer-bottom {
+    font-size: rem-calc(14);
+    line-height: rem-calc(20);
+    padding-top: rem-calc(60);
+    padding-bottom: rem-calc(60);
+    background-color: $dark-gray;
+    color: $white;
+    @include breakpoint(medium) {
+        padding-top: rem-calc(30);
+        padding-bottom: rem-calc(30);
+    }
+    .footer-copyright {
+        margin-bottom: 1em;
+        @include breakpoint(medium) {
+            margin-bottom: 0;
+            float: right;
+        }
+    }
+    .footer-menu {
+        @include clearfix();
+        margin-bottom: 1em;
+        @include breakpoint(medium) {
+            margin-bottom: 0;
+            float: left;
+        }
+        & > li {
+            float: left;
+            line-height: rem-calc(20);
+            margin-right: rem-calc(10);
+            & > a {
+                line-height: rem-calc(20);
+            }
+        }
+    }
+}

@@ -1,0 +1,359 @@
+/* Text
+ ========================================================================== */
+.strong {
+    font-weight: $global-weight-bold;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.text-alert {
+    color: map-get($foundation-palette, alert);
+}
+
+.bullet-list {
+    @include bullet-list();
+}
+
+/* Padding
+ ========================================================================== */
+
+.padding {
+    padding: $utils-padding;
+    @include breakpoint(medium) {
+        padding: $utils-padding * $utils-padding-multiplicator;
+    }
+}
+
+.padding-top {
+    padding-top: $utils-padding;
+    @include breakpoint(medium) {
+        padding-top: $utils-padding * $utils-padding-multiplicator;
+    }
+}
+
+.padding-bottom {
+    padding-bottom: $utils-padding;
+    @include breakpoint(medium) {
+        padding-bottom: $utils-padding * $utils-padding-multiplicator;
+    }
+}
+
+.padding-left {
+    padding-left: $utils-padding;
+    @include breakpoint(medium) {
+        padding-left: $utils-padding * $utils-padding-multiplicator;
+    }
+}
+
+.padding-right {
+    padding-right: $utils-padding;
+    @include breakpoint(medium) {
+        padding-right: $utils-padding * $utils-padding-multiplicator;
+    }
+}
+
+/*
+ * Large paddings
+ */
+.padding-large {
+    padding: $utils-padding-large;
+    @include breakpoint(medium) {
+        padding: $utils-padding-large * $utils-padding-multiplicator;
+    }
+}
+
+.padding-large-top {
+    padding-top: $utils-padding-large;
+    @include breakpoint(medium) {
+        padding-top: $utils-padding-large * $utils-padding-multiplicator;
+    }
+}
+
+.padding-large-bottom {
+    padding-bottom: $utils-padding-large;
+    @include breakpoint(medium) {
+        padding-bottom: $utils-padding-large * $utils-padding-multiplicator;
+    }
+}
+
+/*
+ * Small paddings
+ */
+.padding-small {
+    padding: $utils-padding-small;
+    @include breakpoint(medium) {
+        padding: $utils-padding-small * $utils-padding-multiplicator;
+    }
+}
+
+.padding-small-top {
+    padding-top: $utils-padding-small;
+    @include breakpoint(medium) {
+        padding-top: $utils-padding-small * $utils-padding-multiplicator;
+    }
+}
+
+.padding-small-bottom {
+    padding-bottom: $utils-padding-small;
+    @include breakpoint(medium) {
+        padding-bottom: $utils-padding-small * $utils-padding-multiplicator;
+    }
+}
+
+/*
+ * Remove paddings
+ */
+.padding-remove {
+    padding: 0 !important;
+}
+
+.padding-top-remove {
+    padding-top: 0 !important;
+}
+
+.padding-bottom-remove {
+    padding-bottom: 0 !important;
+}
+
+.padding-vertical-remove {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+// For specific breakpoint
+
+.padding-remove-for-medium {
+    @include breakpoint(medium) {
+        padding: 0 !important;
+    }
+}
+
+.padding-top-remove-for-medium {
+    @include breakpoint(medium) {
+        padding-top: 0 !important;
+    }
+}
+
+.padding-bottom-remove-for-medium {
+    @include breakpoint(medium) {
+        padding-bottom: 0 !important;
+    }
+}
+
+.padding-vertical-remove-for-medium {
+    @include breakpoint(medium) {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+}
+
+.padding-remove-for-large {
+    @include breakpoint(large) {
+        padding: 0 !important;
+    }
+}
+
+.padding-top-remove-for-large {
+    @include breakpoint(large) {
+        padding-top: 0 !important;
+    }
+}
+
+.padding-bottom-remove-for-large {
+    @include breakpoint(large) {
+        padding-bottom: 0 !important;
+    }
+}
+
+.padding-vertical-remove-for-large {
+    @include breakpoint(large) {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+}
+
+/* Margin
+ ========================================================================== */
+.margin {
+    margin: $utils-margin;
+    @include breakpoint(medium) {
+        margin: $utils-margin * $utils-margin-multiplicator;
+    }
+}
+
+.margin-top {
+    margin-top: $utils-margin;
+    @include breakpoint(medium) {
+        margin-top: $utils-margin * $utils-margin-multiplicator;
+    }
+}
+
+.margin-bottom {
+    margin-bottom: $utils-margin;
+    @include breakpoint(medium) {
+        margin-bottom: $utils-margin * $utils-margin-multiplicator;
+    }
+}
+
+/*
+ * Large margins
+ */
+
+.margin-large {
+    margin: $utils-margin-large;
+    @include breakpoint(medium) {
+        margin: $utils-margin-large * $utils-margin-multiplicator;
+    }
+}
+
+.margin-large-top {
+    margin-top: $utils-margin-large;
+    @include breakpoint(medium) {
+        margin-top: $utils-margin-large * $utils-margin-multiplicator;
+    }
+}
+
+.margin-large-bottom {
+    margin-bottom: $utils-margin-large;
+    @include breakpoint(medium) {
+        margin-bottom: $utils-margin-large * $utils-margin-multiplicator;
+    }
+}
+
+/*
+ * Small margins
+ */
+.margin-small {
+    margin: $utils-margin-small;
+    @include breakpoint(medium) {
+        margin: $utils-margin-small * $utils-margin-multiplicator;
+    }
+}
+
+.margin-small-top {
+    margin-top: $utils-margin-small;
+    @include breakpoint(medium) {
+        margin-top: $utils-margin-small * $utils-margin-multiplicator;
+    }
+}
+
+.margin-small-bottom {
+    margin-bottom: $utils-margin-small;
+    @include breakpoint(medium) {
+        margin-bottom: $utils-margin-small * $utils-margin-multiplicator;
+    }
+}
+
+/*
+ * Remove margins
+ */
+
+.margin-remove {
+    margin: 0 !important;
+}
+
+.margin-top-remove {
+    margin-top: 0 !important;
+}
+
+.margin-bottom-remove {
+    margin-bottom: 0 !important;
+}
+
+.margin-vertical-remove {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+// For specific breakpoints
+
+.margin-remove-for-medium {
+    @include breakpoint(medium) {
+        margin: 0 !important;
+    }
+}
+
+.margin-top-remove-for-medium {
+    @include breakpoint(medium) {
+        margin-top: 0 !important;
+    }
+}
+
+.margin-bottom-remove-for-medium {
+    @include breakpoint(medium) {
+        margin-bottom: 0 !important;
+    }
+}
+
+.margin-vertical-remove-for-medium {
+    @include breakpoint(medium) {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+}
+
+.margin-remove-for-large {
+    @include breakpoint(large) {
+        margin: 0 !important;
+    }
+}
+
+.margin-top-remove-for-large {
+    @include breakpoint(large) {
+        margin-top: 0 !important;
+    }
+}
+
+.margin-bottom-remove-for-large {
+    @include breakpoint(large) {
+        margin-bottom: 0 !important;
+    }
+}
+
+.margin-vertical-remove-for-large {
+    @include breakpoint(large) {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+}
+
+/* Position
+ ========================================================================== */
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.position-cover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Border
+ ========================================================================== */
+.border-circle {
+    border-radius: 50%;
+}
+
+.border-rounded {
+    border-radius: $utils-border-rounded;
+}
+
+/* Grid
+ ========================================================================== */
+.grid-item {
+    padding-top: map_get($grid-column-gutter, 'small') / 2;
+    padding-bottom: map_get($grid-column-gutter, 'small') / 2;
+    @include breakpoint(medium) {
+        padding-top: map_get($grid-column-gutter, 'medium') / 2;
+        padding-bottom: map_get($grid-column-gutter, 'medium') / 2;
+    }
+}

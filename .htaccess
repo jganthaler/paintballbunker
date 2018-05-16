@@ -1,0 +1,165 @@
+# DEFAULT CHARSET
+AddDefaultCharset utf-8
+
+# PREVENT DIRECTORY LISTING
+<IfModule mod_autoindex.c>
+	#Options -Indexes
+</IfModule>
+
+### BROWSER CACHING
+# ADD MIME TYPES
+<IfModule mod_mime.c>
+    AddType text/css .css
+    AddType text/javascript .js3
+    AddType text/html .html .htm
+    AddType text/plain .txt
+    AddType text/xml .xml
+    AddType image/gif .gif
+    AddType image/x-icon .ico
+    AddType image/jpeg .jpg .jpeg .jpe
+    AddType image/png .png
+    AddType image/tiff .tif .tiff
+    AddType image/svg+xml .svg .svgz
+    AddType application/json .json
+    AddType application/pdf .pdf
+    AddType application/x-font-otf .otf
+    AddType application/javascript .js2
+    AddType application/x-tar .tar
+    AddType application/x-font-ttf .ttf .ttc
+    AddType application/vnd.ms-opentype .ttf .ttc
+    AddType application/font-woff .woff
+    AddType application/vnd.ms-opentype .otf
+    AddType application/zip .zip
+    AddType application/x-gzip .gz .gzip
+    AddType audio/mpeg .mp3 .m4a
+    AddType audio/ogg .ogg
+    AddType audio/wav .wav
+    AddType audio/wma .wma
+    AddType video/avi .avi
+    AddType video/quicktime .mov .qt
+    AddType video/mp4 .mp4 .m4v
+    AddType video/mpeg .mpeg .mpg .mpe
+</IfModule>
+
+# COMPRESS FILES
+<IfModule mod_deflate.c>
+	AddOutputFilterByType DEFLATE text/html
+	AddOutputFilterByType DEFLATE text/plain
+	AddOutputFilterByType DEFLATE text/xml
+	AddOutputFilterByType DEFLATE text/css
+	AddOutputFilterByType DEFLATE image/svg+xml
+	AddOutputFilterByType DEFLATE application/javascript
+	AddOutputFilterByType DEFLATE application/json
+	AddOutputFilterByType DEFLATE application/xml
+	AddOutputFilterByType DEFLATE application/x-font-ttf
+	AddOutputFilterByType DEFLATE font/opentype
+</IfModule>
+
+# ADD CACHING HEADERS
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/css "access plus 1 year"
+    ExpiresByType text/javascript "access plus 1 year"
+    ExpiresByType text/html "access plus 1 hour"
+    ExpiresByType text/xml "access plus 1 hour"
+    ExpiresByType application/javascript "access plus 1 year"
+    ExpiresByType application/font-woff "access plus 1 year"
+    ExpiresByType application/zip "access plus 1 hour"
+    ExpiresByType application/x-gzip "access plus 1 week"
+    ExpiresByType application/x-font-otf "access plus 1 hour"
+    ExpiresByType application/pdf "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/bmp "access plus 1 year"
+    ExpiresByType image/x-icon "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType image/tiff "access plus 1 year"
+    ExpiresByType audio/mpeg "access plus 1 year"
+    ExpiresByType audio/ogg "access plus 1 year"
+    ExpiresByType audio/wav "access plus 1 year"
+    ExpiresByType audio/wma "access plus 1 year"
+    ExpiresByType video/avi "access plus 1 week"
+    ExpiresByType video/quicktime "access plus 1 year"
+    ExpiresByType video/mp4 "access plus 1 year"
+    ExpiresByType video/mpeg "access plus 1 year"
+</IfModule>
+
+<IfModule mod_deflate.c>
+    <IfModule mod_headers.c>
+        Header append Vary User-Agent env=!dont-vary
+    </IfModule>
+    <IfModule mod_filter.c>
+        AddOutputFilterByType DEFLATE text/css text/x-component application/x-javascript application/javascript text/javascript text/x-js text/html text/richtext image/svg+xml text/plain text/xsd text/xsl text/xml image/x-icon application/json
+    <IfModule mod_mime.c>
+        # DEFLATE by extension
+        AddOutputFilter DEFLATE js css htm html xml
+    </IfModule>
+    </IfModule>
+</IfModule>
+
+<FilesMatch ".(css|less|js|js2|js3|js4)$">
+    <IfModule mod_headers.c>
+        Header set Pragma "public"
+        Header append Cache-Control "public"
+        Header unset Set-Cookie
+    </IfModule>
+</FilesMatch>
+<FilesMatch ".(wmv|avi|bmp|gif|gz|gzip|ico|jpg|jpeg|jpe|mov|qt|mp3|m4a|mp4|m4v|mpeg|mpg|mpe|otf|ogg|pdf|png|svg|svgz|swftif|tiff|ttf|wav|wri|woff|zip)$">
+    <IfModule mod_headers.c>
+        Header set Pragma "public"
+        Header append Cache-Control "public"
+        Header unset Set-Cookie
+    </IfModule>
+</FilesMatch>
+
+Header unset ETag
+FileETag None
+### END BROWSER CACHING
+
+# REMOVE ETAG
+<IfModule mod_headers.c>
+	Header unset ETag
+</IfModule>
+
+FileETag None
+
+# REWRITING
+<IfModule mod_rewrite.c>
+    # ENABLE REWRITING
+    RewriteEngine On
+
+    # redirect non www to www
+    RewriteCond %{HTTPS} =on
+    RewriteRule ^(.*)$ - [env=protocol:https]
+    RewriteCond %{HTTPS} !=on
+    RewriteRule ^(.*)$ - [env=protocol:http]
+    RewriteCond %{ENV:APPLICATION_ENV} !=development
+    RewriteCond %{HTTP_HOST} !^www.
+
+    # Workaround for RewriteBase
+    # Copied from https://github.com/symfony/symfony-standard/blob/master/web/.htaccess
+    RewriteCond %{REQUEST_URI}::$1 ^(/.+)/(.*)::\2$
+    RewriteRule ^(.*) - [E=BASE:%1]
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^sitemap\.xml$ %{ENV:BASE}/index.php?rex_yrewrite_func=sitemap [NC,L]
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^robots\.txt$ %{ENV:BASE}/index.php?rex_yrewrite_func=robots [NC,L]
+
+    # REWRITE RULE FOR SEO FRIENDLY IMAGE MANAGER URLS
+    RewriteRule ^media[0-9]*/imagetypes/([^/]*)/([^/]*) %{ENV:BASE}/index.php?rex_media_type=$1&rex_media_file=$2&%{QUERY_STRING} [B]
+    RewriteRule ^images/([^/]*)/([^/]*) %{ENV:BASE}/index.php?rex_media_type=$1&rex_media_file=$2&%{QUERY_STRING} [B]
+    RewriteRule ^imagetypes/([^/]*)/([^/]*) %{ENV:BASE}/index.php?rex_media_type=$1&rex_media_file=$2
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-l
+
+    RewriteCond %{REQUEST_URI} !^redaxo/.*
+    RewriteCond %{REQUEST_URI} !^media/.*
+
+    RewriteRule ^(.*)$ %{ENV:BASE}/index.php?%{QUERY_STRING} [L]
+
+</IfModule>

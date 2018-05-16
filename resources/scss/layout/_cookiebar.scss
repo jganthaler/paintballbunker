@@ -1,0 +1,36 @@
+.cookiebar {
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 9999;
+    text-align: left;
+    padding: rem-calc(20 15);
+    font-family: $body-font-family;
+    font-size: $global-font-size;
+    color: $white;
+    background-color: $dark-gray;
+}
+
+.cookiebar-text {
+    padding-right: rem-calc(65);
+}
+
+.cookiebar-link {
+    color: $white;
+    text-decoration: underline;
+}
+
+.cookiebar-button {
+    display: block;
+    width: rem-calc(50);
+    text-align: center;
+    color: $white;
+    text-transform: uppercase;
+    background-color: $primary-color;
+    position: absolute;
+    top: rem-calc(20);
+    right: rem-calc(15);
+    cursor: pointer;
+}

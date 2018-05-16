@@ -1,0 +1,71 @@
+.leaflet-map {
+    height: 50vh;
+    width: 100%;
+    @include breakpoint(medium) {
+        height: rem-calc(480);
+    }
+    .leaflet-div-icon {
+        width: rem-calc(60);
+        height: rem-calc(60);
+        line-height: rem-calc(60);
+        text-align: center;
+        border: 0;
+        background: none;
+        &:before {
+            content: '\e915';
+            font-size: rem-calc(48);
+            font-family: 'icomoon' !important;
+            line-height: rem-calc(60);
+            color: $primary-color;
+        }
+    }
+}
+
+.leaflet-popup {
+
+    .leaflet-popup-close-button {
+        display: block;
+        width: rem-calc(30);
+        height: rem-calc(30);
+        line-height: rem-calc(30);
+        text-align: center;
+        color: $body-font-color;
+        padding: 0;
+    }
+
+    .leaflet-popup-content-wrapper {
+        border-radius: $global-radius;
+        text-align: center;
+        background-color: $dark-gray;
+        border: 1px solid $dark-gray;
+        box-shadow: none;
+        .leaflet-popup-content {
+            padding: rem-calc(30);
+            margin: 0;
+            color: $light-gray;
+            background-color: $dark-gray;
+            font-family: $body-font-family;
+            .heading {
+                font-size: rem-calc(18);
+            }
+            .text {
+                font-size: rem-calc(14);
+                line-height: 1.4;
+            }
+            a {
+                margin-top: rem-calc(20);
+                font-size: rem-calc(16);
+                display: block;
+                color: $primary-color;
+                text-decoration: underline;
+            }
+        }
+    }
+    .leaflet-popup-tip-container {
+        .leaflet-popup-tip {
+            background: $dark-gray;
+            border-top-color: $dark-gray;
+            box-shadow: none;
+        }
+    }
+}

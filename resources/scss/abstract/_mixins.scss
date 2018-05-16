@@ -1,0 +1,57 @@
+//  Foundation Mixins
+//  -----------------------------
+//
+//   @include clearfix()
+//   @include element-invisible()
+//   @include vertical-center()
+//   @include horizontal-center()
+//   @include absolute-center()
+//   @include css-triangle($triangle-size, $triangle-color, $triangle-direction)
+
+//  Custom Mixins
+//  -----------------------------
+@mixin bullet-list($width: 6, $distance: 1.5, $color: $black) {
+    $bullet-width: $width;
+    $bullet-distance: $bullet-width * $distance;
+    list-style: none;
+    margin-left: 0;
+    li {
+        padding-left: rem-calc($bullet-width + $bullet-distance);
+        margin-bottom: rem-calc($global-padding * 0.3);
+        &:before {
+            content: '';
+            display: inline-block;
+            transform: translateY(-50%);
+            width: rem-calc($bullet-width);
+            height: rem-calc($bullet-width);
+
+            background-color: $color;
+            border-radius: 50%;
+            margin: rem-calc(0 $bullet-distance 0 ($bullet-width + $bullet-distance) * -1);
+        }
+    }
+}
+
+@mixin background-image() {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+@mixin pseudo-cover() {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+@mixin gradient($direction: top) {
+    @if $direction == 'bottom' {
+        background: linear-gradient(transparent, rgba($black, 0.8));
+    } @else {
+        background: linear-gradient(rgba($black, 0.8), transparent);
+    }
+}
