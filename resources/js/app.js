@@ -15,7 +15,7 @@
     $(document).ready(function (e) {
         $(document).foundation();
 
-        cookieBar.showCookieBar(lang, 'http://google.de');
+        cookieBar.showCookieBar(lang, 'http://www.google.de');
 
         $('.slider').slick({
             slidesToShow: 1,
